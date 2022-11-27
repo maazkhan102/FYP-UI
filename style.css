@@ -1,0 +1,114 @@
+.container{
+    margin-top: 80px;
+    display: grid;
+    height: 1200px;
+    background-color: rgb(35, 4, 75);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px 70px 30px 5px;
+    z-index: -1;
+}
+.exercise{
+    box-shadow: 20px 20px rgb(100, 100, 100);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(168, 168, 168);
+    font-size: xx-large;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    padding: 20px;
+}
+.exercise h6{
+    display: grid;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 23px;
+}
+.exercise input{
+    border-radius: 15px 50px;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    padding: 5px;
+    border-color: rgb(27, 0, 63);
+}
+
+#Navid{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+#Nav1id{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.welcome{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.welcome h3{
+    font-size: x-large;
+}
+.guide{
+    display: flex;
+    justify-content: center;
+}
+
+
+.welcome2{
+    color: rgb(52, 0, 119);
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+
+.sliderbanner{
+    margin-top: 70px;
+}
+
+.Tagline{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 0, 119);
+}
+.Tagline h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+    margin-top: 130px;
+    height: 200px;
+    background-color: rgba(236, 236, 236, 0.966);
+}
+.footer h4{
+display: flex;
+justify-content: center;
+padding-top: 60px;
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+}
+.footer h6{
+    display: flex;
+    justify-content: center;
+}
